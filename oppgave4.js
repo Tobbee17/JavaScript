@@ -1,4 +1,8 @@
-var tall = 13;
-var tekst = "Petter";
+var sum = 1;
 
-console.log(tall < 100);
+while (sum < 100) {
+  var tall = Number(prompt("Skriv et tall"));
+  sum += tall;
+}
+
+console.log(sum);
