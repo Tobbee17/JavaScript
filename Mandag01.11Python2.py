@@ -1,4 +1,4 @@
-balansen = float(input("Skriv inn balansen på kontoen din: "))
+balansen = float(input("Hva er balansen på kontoen din?: "))
 
 penger = str(input("Skriv in Innskudd for å sette inn penger og Utak for å ta ut penger: "))
 
