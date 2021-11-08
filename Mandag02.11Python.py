@@ -15,13 +15,13 @@ if "bruks" in Velgkonto:
         print("Ny balanse er: ", Brukskonto, "Kr")
 
     elif "spare" in Velgkonto:
-            Sparebalanse=str(input("Du valgte sparekonto. Vil du ta ut eller sette inn penger?: "))
-    if "inn" in Sparebalanse:
+            Sparekonto=str(input("Du valgte sparekonto. Vil du ta ut eller sette inn penger?: "))
+    if "inn" in Sparekonto:
         penger=float(input("Hvor mye penger vil du sette inn?: "))
         Sparekonto = Sparekonto + penger
     print("Ny balanse er: ", Sparekonto, "Kr")
     
-    if "ut" in Sparebalanse:
+    if "ut" in Sparekonto:
         penger=float(input("Hvor mye penger vil du ta ut?"))
         Sparekonto = Sparekonto - penger
         print("Ny balanse er: ", Sparekonto, "Kr")
