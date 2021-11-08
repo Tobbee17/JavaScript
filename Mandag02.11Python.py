@@ -14,12 +14,12 @@ if "bruks" in Velgkonto:
         Brukskonto = Brukskonto - penger
 
 if "spare" in Velgkonto:
-    Sparekonto=str(input("Du valgte sparekonto. Vil du ta ut eller sette inn penger?: "))
-    if "inn" in Sparekonto:
+    Spare=str(input("Du valgte sparekonto. Vil du ta ut eller sette inn penger?: "))
+    if "inn" in Spare:
         penger=float(input("Hvor mye penger vil du sette inn?: "))
         Sparekonto = Sparekonto + penger
     
-    elif "ut" in Sparekonto:
+    elif "ut" in Spare:
         penger=float(input("Hvor mye penger vil du ta ut?"))
         Sparekonto = Sparekonto - penger
         
