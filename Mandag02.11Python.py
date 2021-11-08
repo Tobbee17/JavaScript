@@ -21,6 +21,10 @@ if "bruks" in Velgkonto:
         Sparekonto = Sparekonto + penger
     print("Ny balanse er: ", Sparekonto, "Kr")
     
-    elif "ut" in Sparebalanse:
+    if "ut" in Sparebalanse:
+        penger=float(input("Hvor mye penger vil du ta ut?"))
+        Sparekonto = Sparekonto - penger
+        print("Ny balanse er: ", Sparekonto, "Kr")
         
-        
+        print("Total brukskonto balanse er:" , Brukskonto, "Kr")
+        print("Total sparekonto balanse er:" , Sparekonto, "Kr")
