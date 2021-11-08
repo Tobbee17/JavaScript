@@ -8,23 +8,20 @@ if "bruks" in Velgkonto:
     if "inn" in Bruks:
         penger=float(input("Hvor mye vil du sette inn?: "))
         Brukskonto = Brukskonto + penger
-        print("Ny balanse er: ", Brukskonto, "Kr")
+        
     elif "ut" in Bruks:
         penger=float(input("Hvor mye penger vil du ta ut?: "))
         Brukskonto = Brukskonto - penger
-        print("Ny balanse er: ", Brukskonto, "Kr")
 
-    elif "spare" in Velgkonto:
-            Sparekonto=str(input("Du valgte sparekonto. Vil du ta ut eller sette inn penger?: "))
+if "spare" in Velgkonto:
+    Sparekonto=str(input("Du valgte sparekonto. Vil du ta ut eller sette inn penger?: "))
     if "inn" in Sparekonto:
         penger=float(input("Hvor mye penger vil du sette inn?: "))
         Sparekonto = Sparekonto + penger
-    print("Ny balanse er: ", Sparekonto, "Kr")
     
-    if "ut" in Sparekonto:
+    elif "ut" in Sparekonto:
         penger=float(input("Hvor mye penger vil du ta ut?"))
         Sparekonto = Sparekonto - penger
-        print("Ny balanse er: ", Sparekonto, "Kr")
         
-        print("Total brukskonto balanse er:" , Brukskonto, "Kr")
-        print("Total sparekonto balanse er:" , Sparekonto, "Kr")
+print("Total brukskonto balanse er:" , Brukskonto, "Kr")
+print("Total sparekonto balanse er:" , Sparekonto, "Kr")
