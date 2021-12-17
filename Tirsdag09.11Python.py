@@ -1,2 +1,2 @@
-navn = str(input("Skriv in et navn: "))[::-1]
+navn = str(input("Skriv inn navnet ditt: "))[::-1]
 print(navn)
