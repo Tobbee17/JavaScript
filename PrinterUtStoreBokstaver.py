@@ -1,12 +1,8 @@
 navn= str(input("Skriv inn en tekst: "))
 
-k = ""
-vokalene = "aeiouyæøåAEIOUYÆØÅ"
+siffer = 0
 
-for letter in navn:
-    if letter in vokalene:
-        k += '_'
-    else:
-       k += letter
-
-print(k)
+for k in navn:
+    if k.isdigit():
+        siffer += 1
+print("Antall siffer er: ", siffer)
