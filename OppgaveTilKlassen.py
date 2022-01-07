@@ -1,7 +1,13 @@
-# Importerer kalender
-import calendar
+# Importerer kalender 
 
-yy = 2021  # year
-mm = 12    # month
+import calendar 
 
-print(calendar.month(yy, mm))
+ 
+
+yy = 2021   # year 
+
+mm = 12   # month 
+
+ 
+
+print(calendar.month(yy, mm)) 
